@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(../font/LKf8nhXsWg5ybwEGXk8UBQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(../font/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Sans Italic'), local('PTSans-Italic'), url(../font/PIPMHY90P7jtyjpXuZ2cLD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(../font/lILlYDvubYemzYzN7GbLkHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+body { font-family: 'PT Sans', sans-serif; }
+.alert {
+  padding: 8px 35px 8px 10px;
+  text-shadow: none;
+  background-color: #f9edbe;
+  border: 1px solid #f0c36d;
+  color: #333333;
+}
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #a3d48e;
+  color: #468847;
+}
+.alert-danger,
+.alert-error {
+  background-color: #f2dede;
+  border-color: #dd4b39;
+  color: #dd4b39;
+}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #85c5e5;
+  color: #3a87ad;
+}
+.alert-success,
+.alert-danger,
+.alert-error,
+.alert-info {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alert-danger,
+.alert-error {
+  border-color: #d59595;
+  color: #b94a48;
+}
+.navbar {
+  margin-bottom: 0; /* Override default */
+}
+.page-header {
+  margin:0 auto 30px auto;
+  padding-top:10px;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #001121; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #001121 0%, #036AB9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#001121), color-stop(100%,#036AB9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #001121 0%,#036AB9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #001121 0%,#036AB9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #001121 0%,#036AB9 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #001121 0%,#036AB9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001121', endColorstr='#036AB9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  border:none;
+}
+.page-header small { color:#ccc;font-size:20px; }
+h3 code { font-size: 14px;font-weight: normal; }
+.navbar-inner {
+  /* Override default */
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.hn-bg-purple { background-color: #6600cc; }
+.hn-bg-blue { background-color: #0066ff; }
+.hn-bg-green { background-color: #66cc00;}
+.hn-bg-yellow { background-color: #ffcc00;}
+.hn-bg-orange {background-color: #ff6600;}
+.hn-bg-red { background-color: #ff0000;}
+.hn-color-purple { color: #6600cc; }
+.hn-color-blue { color: #0066ff; }
+.hn-color-green { color: #66cc00;}
+.hn-color-yellow { color: #ffcc00;}
+.hn-color-orange {color: #ff6600;}
+.hn-color-red { color: #ff0000;}
+.box { padding:5px; border:1px solid #ccc;margin-bottom:20px; }
+.box h4.box-title { margin:-5px -5px 10px -5px;background:#f3f3f3;padding:10px; }
+.pointer:hover { cursor:pointer; }
+.employer-login { border: 1px solid #df8505;background-color: #fbec5d; }
+.box h4.employer-login-head { background:#e5b73b; }
+.jobseeker-login { background-color:#f9f9f9; }
+.box h4.jobseeker-login-head { background:#eee; }
+
+ul.jobs-vacancy li {
+background:#f8f8f8;
+padding:5px;
+margin-bottom:10px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border:1px solid #ddd;
+}
+ul.jobs-vacancy li .job-short-desc {
+padding-top:10px;
+color:#555;
+margin-bottom:5px;
+}
+ul.jobs-vacancy li .date { font-style:italic;color:#888; }
+ul.jobs-vacancy li.sponsor {
+background: #ffcc00;
+border:1px solid #ff6600;
+}
+ul.jobs-vacancy li.sponsor .job-short-desc {color:#444;}
+ul.jobs-vacancy li.sponsor .date { color:#777; }
+ol.applicant-list li { border-bottom:1px dashed #eee; }
+.employer-button { margin-top:5px;border-top:1px solid #eee;padding-top:5px;text-align:right; }
+.semi-opacity {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.post-job-form { margin:10px; }
+.form-login .control-label {
+float: left;
+width: 80px;
+padding-top: 5px;
+text-align: right;
+}
+.form-login .controls {
+margin-left: 100px;
+}
+.form-login { margin-right:20px; }
+
+/* Real Person jQuery plugin styles v1.1.0. */
+.realperson-challenge {
+	display: block;
+	color: #000;
+}
+.realperson-text {
+	font-family: "Courier New",monospace;
+	font-size: 6px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 3px;
+}
+.realperson-regen {
+	padding-top: 4px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.realperson-disabled {
+	opacity: 0.5;
+	filter: Alpha(Opacity=50);
+}
+.realperson-disabled .realperson-regen {
+	cursor: default;
+}
+
+.pdata {
+padding: 4px 6px;
+font-size: 14px;
+background:#fff;
+width:80%;
+border:1px solid #eee;
+}
+.plabel { font-weight:bold; }
+.sponsor-label {
+background:#eee;
+color:#222;
+margin:10px auto;
+}
